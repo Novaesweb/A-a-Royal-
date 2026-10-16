@@ -1,6 +1,6 @@
 import {useEffect,useMemo,useState} from 'react';
 import {Link,Route,Routes,useLocation} from 'react-router-dom';
-import {ArrowRight,ArrowLeft,BookOpen,ChevronDown,Clock,CreditCard,Heart,HelpCircle,Instagram,MapPin,Menu,MessageCircle,Minus,Plus,ShoppingBag,ShoppingCart,Sparkles,Star,Store,Trash2,Truck,Wallet,X} from 'lucide-react';
+import {ArrowRight,ArrowLeft,BookOpen,ChevronDown,Clock,CreditCard,Gift,Heart,HelpCircle,Instagram,MapPin,Menu,MessageCircle,Minus,Plus,ShoppingBag,ShoppingCart,Sparkles,Star,Store,Trash2,Truck,Wallet,X} from 'lucide-react';
 import {extras,formatMoney,neighborhoods,products,promotions,store,type Product} from './data';
 
 type Item={key:string;productId:string;extraIds:string[];qty:number;note:string};
