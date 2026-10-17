@@ -1,6 +1,6 @@
 import {useEffect,useMemo,useState} from 'react';
 import {Link,Route,Routes,useLocation} from 'react-router-dom';
-import {ArrowRight,ArrowLeft,BookOpen,ChevronDown,Clock,CreditCard,Gift,Heart,Crown,Leaf,Check,HelpCircle,Instagram,MapPin,Menu,MessageCircle,Minus,Plus,ShoppingBag,ShoppingCart,Sparkles,Star,Store,Trash2,Truck,Wallet,X} from 'lucide-react';
+import {ArrowRight,ArrowLeft,ChevronDown,Clock,CreditCard,Gift,Crown,Leaf,Check,Instagram,MapPin,Menu,MessageCircle,Minus,Plus,ShoppingBag,Star,Store,Trash2,Truck,Wallet,X} from 'lucide-react';
 import {extras,formatMoney,neighborhoods,products,promotions,store,type Product} from './data';
 
 const photos={hero:'https://images.pexels.com/photos/8805202/pexels-photo-8805202.jpeg?auto=compress&cs=tinysrgb&w=1400',bowl:'https://images.pexels.com/photos/4553027/pexels-photo-4553027.jpeg?auto=compress&cs=tinysrgb&w=900',fruit:'https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=900&q=85'};
